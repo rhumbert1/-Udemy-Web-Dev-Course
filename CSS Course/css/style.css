@@ -1,7 +1,18 @@
-h1 {
+body {
+  text-align: center;
   margin: 0;
+  font-family: 'Merriweather', serif;
 }
 
-body {
+h1 {
   margin: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', serif;
+}
+
+h3 {
+  font-family: 'Montserrat', serif;
 }
