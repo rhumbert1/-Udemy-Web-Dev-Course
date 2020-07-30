@@ -55,14 +55,13 @@ a {
 .headers {
   font-size: 40px;
   font-weight: bold;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .presentation {
-  width: 45%;
+  width: 40%;
   color: #40514E;
-  margin: 0;
+  margin: auto;
+  text-align: left;
 }
 
 .dots {
