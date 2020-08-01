@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
-
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
@@ -24,6 +22,7 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999e;
+  font-weight: bolder;
 }
 
 a {
@@ -49,6 +48,12 @@ a {
   margin-right: 30px;
 }
 
+.peppers {
+  width: 28%;
+  float: right;
+  margin-right: 30px;
+}
+
 .web {
   text-decoration: underline;
 }
@@ -62,7 +67,6 @@ a {
   width: 40%;
   color: #40514E;
   margin: auto;
-  text-align: left;
 }
 
 .dots {
@@ -71,12 +75,10 @@ a {
   color: #CAD6D6;
 }
 
-.d-d {
+.skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 300px auto;
   text-align: left;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .top-container {
