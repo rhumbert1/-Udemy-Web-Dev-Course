@@ -47,11 +47,8 @@
 /* Features */
 #features {
   text-align: center;
-}
-
-.row-features {
   margin-top: 50px;
-  padding: 50px 100px;
+  padding: 7% 15%;
 }
 
 #features .col-lg-4 {
@@ -76,4 +73,12 @@
 
 #features p {
   color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
