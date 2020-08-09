@@ -1,14 +1,38 @@
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
 
 #title h1 {
+  margin: 80px auto;
   font-family: 'Montserrat';
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
 }
 
+#title img {
+  transform: rotate(25deg);
+  margin-bottom: -250px;
+  margin-top: 100px;
+}
+
 .container-fluid {
   padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+}
+
+.nav-item {
+  margin: auto 25px;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu';
+}
+
+.btn {
+  margin: auto 10px;
+  font-family: 'Montserrat';
 }
