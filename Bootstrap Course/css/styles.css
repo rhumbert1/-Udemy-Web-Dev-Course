@@ -13,13 +13,13 @@
 
 #title img {
   transform: rotate(25deg);
-  margin-top: 20px;
   width: 60%;
-  margin-left: 100px;
+  position: absolute;
+  right: 30%;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 /* Navbar */
@@ -47,8 +47,9 @@
 /* Features */
 #features {
   text-align: center;
-  margin-top: 50px;
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 #features .col-lg-4 {
@@ -119,4 +120,59 @@
 
 .col-price {
   padding: 3% 2%;
+}
+
+/* Call to action */
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+#cta h3 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+  color: #fff;
+}
+
+#cta .btn {
+  margin: 50px 20px;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 15% 3%;
+  text-align: center;
+  background-color: #fff;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+#footer .fab {
+  margin: 20px 10px;
+}
+
+#footer .fas {
+  margin: 20px 10px;
+}
+
+/* Media queries */
+@media (max-width: 1028px) {
+  #title img {
+    position: static;
+    transform: rotate(0);
+    margin: 10px;
+  }
+
+  #title .btn {
+    margin: 10px 0;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
