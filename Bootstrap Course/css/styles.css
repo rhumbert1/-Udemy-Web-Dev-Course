@@ -1,14 +1,35 @@
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Title */
 #title {
   background-color: #ff4c68;
   color: #fff;
-}
-
-#title h1 {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 #title img {
@@ -66,12 +87,6 @@
   color: #ff4c68;
 }
 
-#features h3 {
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
 #features p {
   color: #8f8f8f;
 }
@@ -81,13 +96,6 @@
   text-align: center;
   background-color: #ef8172;
   color: #fff;
-}
-
-#testimonials h2 {
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -127,14 +135,6 @@
   padding: 7% 15%;
   text-align: center;
   background-color: #ff4c68;
-}
-
-#cta h3 {
-  font-family: 'Montserrat';
-  font-weight: 900;
-  line-height: 1.5;
-  font-size: 3rem;
-  color: #fff;
 }
 
 #cta .btn {
