@@ -4,6 +4,7 @@
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
+  color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,36 +12,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-/* Title */
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-#title img {
-  transform: rotate(25deg);
-  width: 60%;
-  position: absolute;
-  right: 30%;
-}
-
+/* Containers */
 .container-fluid {
-  padding: 3% 15% 10%;
+  padding: 7% 15%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+body {
+  text-align: center;
 }
 
 /* Navbar */
@@ -65,16 +52,35 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
 }
 
+/* Title */
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Features */
 #features {
-  text-align: center;
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
 #features .col-lg-4 {
   padding: 0 60px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
 }
 
 #features .fas {
@@ -87,13 +93,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff4c68;
 }
 
-#features p {
-  color: #8f8f8f;
-}
-
 /* Testimonials */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -104,14 +105,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Press */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -123,17 +124,19 @@ h1, h2, h3, h4, h5, h6 {
 /* Pricing */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .col-price {
   padding: 3% 2%;
 }
 
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Call to action */
 #cta {
-  padding: 7% 15%;
-  text-align: center;
   background-color: #ff4c68;
 }
 
@@ -143,13 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer */
 #footer {
-  padding: 7% 15% 3%;
-  text-align: center;
   background-color: #fff;
-}
-
-#footer p {
-  color: #8f8f8f;
 }
 
 #footer .fab {
