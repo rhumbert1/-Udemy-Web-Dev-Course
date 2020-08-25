@@ -1,4 +1,6 @@
-for (i = 0; i < document.querySelectorAll(".drum").length; i++) {
+var numberOfButtons = document.querySelectorAll(".drum").length;
+
+for (i = 0; i < numberOfButtons; i++) {
   document.querySelectorAll("button")[i].addEventListener("click", handleClick);
 }
 
