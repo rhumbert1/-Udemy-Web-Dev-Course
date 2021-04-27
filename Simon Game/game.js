@@ -68,8 +68,9 @@ function nextSequence() {
 
 /* Starting the game */
 
-$(document).on("keydown", function() {
-  if (started == false) {
+$(document).keypress(function() {
+  if (!started) {
+    $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
   }
@@ -80,5 +81,6 @@ $(document).on("keydown", function() {
 function startOver() {
   level = 0;
   gamePattern = [];
+  userClickedPattern = [];
   started = false;
 }
